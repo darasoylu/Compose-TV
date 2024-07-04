@@ -59,6 +59,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+
 
     //implementation 'androidx.tv:tv-foundation:1.0.0-alpha10'
     //implementation 'androidx.tv:tv-material:1.0.0-beta01'
