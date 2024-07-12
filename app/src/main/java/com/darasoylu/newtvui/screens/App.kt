@@ -178,7 +178,7 @@ fun searchWithAnimation() {
                 modifier = Modifier.weight(1f)
             ) {
                 Icon(
-                    imageVector = Icons.Sharp.Search, // Değiştirin: uygun ikon kaynağını kullanın
+                    imageVector = Icons.Sharp.Search,
                     contentDescription = "Settings"
                 )
             }

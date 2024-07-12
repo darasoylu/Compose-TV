@@ -53,7 +53,6 @@ fun HomeCarousel() {
                 right = FocusRequester.Cancel
             }
             .onFocusChanged {
-                // Because the carousel itself never gets the focus
                 isCarouselFocused = it.hasFocus
             },
         itemCount = carouselList.size,
@@ -70,9 +69,7 @@ fun HomeCarousel() {
             .togetherWith(fadeOut(tween(durationMillis = 1000))),
         content = { index ->
             val item = carouselList[index]
-            // background
             CarouselItemBackground(item = item, modifier = Modifier.fillMaxSize())
-            // foreground
             CarouselItemForeground(
                 item = item,
                 isCarouselFocused = isCarouselFocused,
