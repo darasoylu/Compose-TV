@@ -1,4 +1,4 @@
-# ShopApp
+# Compose-TV
 This is a sample Android IPTV Application built using Jetpack Compose.
 
 ## Libraries and Features
